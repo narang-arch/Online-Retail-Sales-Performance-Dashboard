@@ -1,46 +1,99 @@
 # Online-Retail-Sales-Performance-Dashboard
 
- Project Overview
-This project analyzes online retail transactional data to evaluate sales performance, customer behavior, product trends, and order status distribution.
-The solution was built using SQL Server for data preparation and Power BI for data modeling and visualization, transforming raw transactional data into business-driven insights.
- Tech Stack
-SQL Server – Data cleaning, transformation, view optimization
-Power BI – Data modeling, DAX measures, dashboard design
- Data Preparation (SQL)
+👇
+
+📊 Online Retail Sales Performance Dashboard
+📌 Project Overview
+
+This project presents an end-to-end sales analytics solution for an online retail business.
+It analyzes transactional data to evaluate sales performance, customer behavior, product trends, and order status distribution.
+
+The solution leverages SQL Server for data preparation and optimization and Power BI for data modeling, DAX calculations, and interactive visualization, transforming raw transactional data into actionable business insights.
+
+🛠 Tech Stack
+
+SQL Server – Data cleaning, transformation, and performance-optimized reporting views
+
+Power BI – Data modeling, DAX measures, and interactive dashboard design
+
+🧹 Data Preparation (SQL Server)
+
+The raw transactional data was processed using SQL to ensure accuracy and performance:
+
 Removed null and invalid records
+
 Filtered cancelled transactions
+
 Deduplicated records using ROW_NUMBER()
-Created optimized reporting views:
+
+Created optimized SQL views for reporting:
+
 vw_Sales_Transactions
+
 vw_Cancelled_Orders
+
 vw_Order_Status_Summary
-Using aggregated SQL views improved Power BI performance and reduced model complexity.
- Dashboard Features
-KPIs
+
+Using pre-aggregated SQL views significantly improved Power BI refresh performance and reduced data model complexity.
+
+📈 Dashboard Features
+🔹 Key Performance Indicators (KPIs)
+
 Total Revenue
+
 Total Customers
+
 Completed Orders
+
 Units Sold
+
 Active Products
-Avg Revenue per Customer
+
+Average Revenue per Customer
+
 Overall Refund Amount
-Visual Analysis
+
+🔹 Visual Analysis
+
 Monthly Revenue Trend
+
 Monthly Orders Trend
+
 Revenue Distribution by Country
+
 Order Status Distribution
+
 Top Products by Revenue
+
 Top Customers by Revenue
+
 Bottom Products by Revenue
- Key Insights
-Revenue is highly concentrated in the United Kingdom (~89%).
-Peak sales observed in September.
-Cancellation rate remains relatively low (~15%), indicating stable order performance.
-A small group of customers and products drives the majority of revenue.
- What This Project Demonstrates
-End-to-end analytics workflow (SQL → Power BI)
-Data cleaning & transformation
+
+🧠 Key Business Insights
+
+Revenue is heavily concentrated in the United Kingdom (~89%)
+
+Peak sales occur in September
+
+Cancellation rate remains relatively low (~15%), indicating stable order fulfillment
+
+A small group of customers and products contributes to the majority of revenue, following the Pareto principle
+
+🚀 What This Project Demonstrates
+
+End-to-end analytics workflow (SQL Server → Power BI)
+
+Data cleaning and transformation best practices
+
 SQL performance optimization using views
-Data modeling & DAX calculations
+
+Effective data modeling and DAX calculations
+
 Business-focused dashboard design
-Analytical storytelling
+
+Clear analytical storytelling for decision-making
+
+👤 Author
+
+Ruhani Narang
+Data Analyst | Power BI | SQL | Python
